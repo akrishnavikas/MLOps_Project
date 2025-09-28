@@ -67,7 +67,7 @@ open up you local host and port
 
 MLFLOW_TRACKING_URI=https://dagshub.com/akrishnavikas/MLOps_Project.mlflow \
 MLFLOW_TRACKING_USERNAME=akrishnavikas \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_PASSWORD="enter your session token" (sample format=4692c47a369aa) \
 python script.py
 
 
@@ -79,7 +79,7 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/akrishnavikas/MLOps_Project.mlflo
 
 export MLFLOW_TRACKING_USERNAME=akrishnavikas 
 
-export MLFLOW_TRACKING_PASSWORD=2f42f7282d7cc6f7f180f3553b884f1623485552
+export MLFLOW_TRACKING_PASSWORD="enter your session token" (sample format=4692c47a369aa) 
 
 ```
 
@@ -118,7 +118,7 @@ export MLFLOW_TRACKING_PASSWORD=2f42f7282d7cc6f7f180f3553b884f1623485552
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/dockerrepo
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -152,11 +152,11 @@ export MLFLOW_TRACKING_PASSWORD=2f42f7282d7cc6f7f180f3553b884f1623485552
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_REGION = us-east-1(you can choose according to your environment)
 
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = dockerrepo
 
 
 
