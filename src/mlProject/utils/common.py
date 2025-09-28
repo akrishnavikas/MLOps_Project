@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any
 
 
+
 #ensure annotations are  used to make sure your function arguments and return types match the specified types.
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
