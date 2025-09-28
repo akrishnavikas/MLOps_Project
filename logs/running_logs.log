@@ -153,3 +153,68 @@ x==========x]
 [2025-09-28 17:38:51,768: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2025-09-28 17:47:27,556: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-28 17:47:27,557: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-28 17:47:27,560: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-28 17:47:27,562: INFO: common: created directory at: artifacts]
+[2025-09-28 17:47:27,570: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-28 17:47:27,589: INFO: 741865018: Splited data into training and test sets]
+[2025-09-28 17:47:27,594: INFO: 741865018: (1199, 12)]
+[2025-09-28 17:47:27,594: INFO: 741865018: (400, 12)]
+[2025-09-28 17:54:11,203: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-09-28 17:54:11,203: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-28 17:54:11,203: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-28 17:54:11,203: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-28 17:54:11,203: INFO: common: created directory at: artifacts]
+[2025-09-28 17:54:11,203: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-28 17:54:13,770: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: ACBD:1EDC9B:23CA6E:5F6774:68D91F2B
+Accept-Ranges: bytes
+Date: Sun, 28 Sep 2025 12:24:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom-vanm7210058-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759062256.381883,VS0,VE0
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7d5b85e1d23d9fb83efdaee740a77f3e511307bf
+Expires: Sun, 28 Sep 2025 12:29:16 GMT
+Source-Age: 115
+
+]
+[2025-09-28 17:54:13,789: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-09-28 17:54:13,789: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-09-28 17:54:13,795: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-28 17:54:13,795: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-28 17:54:13,795: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-28 17:54:13,797: INFO: common: created directory at: artifacts]
+[2025-09-28 17:54:13,797: INFO: common: created directory at: artifacts/data_validation]
+[2025-09-28 17:54:13,820: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-09-28 17:54:13,820: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-09-28 17:54:13,824: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-28 17:54:13,824: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-28 17:54:13,824: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-09-28 17:54:13,824: INFO: common: created directory at: artifacts]
+[2025-09-28 17:54:13,828: INFO: common: created directory at: artifacts/data_transformation]
+[2025-09-28 17:54:13,839: INFO: data_transformation: Splited data into training and test sets]
+[2025-09-28 17:54:13,839: INFO: data_transformation: (1199, 12)]
+[2025-09-28 17:54:13,839: INFO: data_transformation: (400, 12)]
+[2025-09-28 17:54:13,839: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
